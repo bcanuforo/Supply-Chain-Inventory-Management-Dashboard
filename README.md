@@ -1,6 +1,6 @@
 # Supply Chain & Inventory Management Dashboard
 
-! [Supply Chain Dashboard](images/dashboard-screenshot.png)
+![Supply Chain Dashboard](images/dashboard-screenshot.png)
 
 > **End-to-End MySQL + Power BI Solution** for Real-time Supply Chain Visibility
 
@@ -47,6 +47,13 @@ A complete professional **Supply Chain & Inventory Management System** built fro
 - **Inventory Turnover**: **3.6x**
 - **Low Stock Items**: **0**
 - **Average Lead Time**: **3.4 Days**
+
+---
+
+## 📸 Dashboard Screenshots
+
+![Dashboard Screenshort](dashboard-screenshort.png)
+![Executive Cover](executive-cover.png)
 
 ---
 

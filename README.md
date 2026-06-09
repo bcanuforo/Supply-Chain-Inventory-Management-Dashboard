@@ -65,7 +65,7 @@ supply-chain-inventory-dashboard/
 ├── LICENSE
 ├── sql/
 │   ├── 01_schema.sql
-│   └── 02_sample_data.sql
+│   └── 02_sample_data.sql/
 ├── reports/
 │   └── Supply_Chain_Executive_Report.pdf
 └── images/
@@ -111,6 +111,8 @@ supply-chain-inventory-dashboard/
 
 Made with ❤️ for Data Analytics & Supply Chain Excellence
 
-Boniface Anuforo — June 2026 
+👤 Author
+Boniface Anuforo
+Data Analyst | Business Intelligence | Workforce Analytics
 
-⭐ Star this repository if you find it useful!
+⭐ If this project inspires you, please give it a star!

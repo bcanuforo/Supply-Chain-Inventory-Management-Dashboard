@@ -145,6 +145,14 @@ The Power BI semantic model follows a star-schema design to support efficient fi
 
 ---
 
+## 📄 Executive Report
+
+A management-ready executive report was developed to summarize findings, recommendations, and business insights.
+
+![Executive Report](executive-cover.png)
+
+---
+
 ## 📐 Sample DAX Measures
 
 ### Inventory Turnover

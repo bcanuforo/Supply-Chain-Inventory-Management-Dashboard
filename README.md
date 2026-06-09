@@ -86,7 +86,7 @@ The database was designed using a relational model that supports:
 
 ### Database Schema (EER Diagram)
 
-![MySQL Schema](images/mysql-schema.png)
+![MySQL Schema](mysql-schema.png)
 
 ---
 
@@ -106,7 +106,7 @@ The Power BI semantic model follows a star-schema design to support efficient fi
 
 ### Power BI Data Model
 
-![Power BI Data Model](images/powerbi-model.png)
+![Power BI Data Model](powerbi-model.png)
 
 ---
 

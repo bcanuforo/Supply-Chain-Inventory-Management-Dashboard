@@ -1,8 +1,8 @@
 # Supply Chain & Inventory Management Dashboard
 
-![Supply Chain Dashboard](images/dashboard-screenshot.png)
+! [Supply Chain Dashboard](images/dashboard-screenshot.png)
 
-> **End-to-End MySQL + Power BI Solution** for Real-time Supply Chain Visibility & Analytics
+> **End-to-End MySQL + Power BI Solution** for Real-time Supply Chain Visibility
 
 ---
 
@@ -52,6 +52,7 @@ A complete professional **Supply Chain & Inventory Management System** built fro
 
 ### 📁 Project Structure
 
+
 supply-chain-inventory-dashboard/
 ├── README.md
 ├── LICENSE
@@ -77,15 +78,13 @@ supply-chain-inventory-dashboard/
    SOURCE 01_schema.sql;
    SOURCE 02_sample_data.sql;
 
-Power BI
-Open Supply_Chain_Inventory_Dashboard.pbix (available upon request due to size)
-Update MySQL connection details
-Click Refresh
+2. Power BI
+- Open Supply_Chain_Inventory_Dashboard.pbix (available upon request due to size)
+- Update MySQL connection details
+- Click Refresh
 
-Executive Report
-Open 
-
-
+1. Executive Report
+- Open Supply_Chain_Executive_Report.pdf
 
 📈 Key Achievements
 
@@ -105,5 +104,6 @@ Open
 
 Made with ❤️ for Data Analytics & Supply Chain Excellence
 
-Boniface Anuforo — June 2026
-⭐ Star this repository if you find it useful!   
+Boniface Anuforo — June 2026 
+
+⭐ Star this repository if you find it useful!

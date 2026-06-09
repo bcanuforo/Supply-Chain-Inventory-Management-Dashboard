@@ -1,116 +1,275 @@
 # Supply Chain & Inventory Management Dashboard
 
-![Supply Chain Dashboard](images/dashboard-screenshot.png)
+## End-to-End MySQL + Power BI Solution for Real-Time Supply Chain Visibility
 
-> **End-to-End MySQL + Power BI Solution** for Real-time Supply Chain Visibility
+A complete Supply Chain & Inventory Management Analytics solution built using **MySQL** as the backend database and **Microsoft Power BI** for business intelligence, reporting, and visualization.
 
 ---
 
-### 🚀 Live Interactive Dashboard
+## 👨‍💼 Prepared By
+
+**Boniface Anuforo**
+
+Power BI Developer | Data Analyst | Business Analyst | Supply Chain Analyst | Inventory Analyst
+
+**GitHub:** https://github.com/bcanuforo
+
+**LinkedIn:** https://linkedin.com/in/boniface-anuforo-34b935219
+
+---
+
+## 🚀 Live Interactive Dashboard
 
 **👉 [View Interactive Supply Chain Dashboard](https://app.powerbi.com/groups/a3052749-2d59-49d4-b75a-d06280187d9b/reports/a034977e-d1cf-4ca7-a36a-216e9a5ace3b/47d9fe1c0d4772d593c3?experience=power-bi)**
 
-> *Note: You may need to sign in with a Microsoft account to view the full interactive report.*
+*Note: You may need to sign in with a Microsoft account to access the full interactive report.*
 
 ---
 
-### Project Overview
+## 📌 Project Overview
 
-A complete professional **Supply Chain & Inventory Management System** built from scratch using **MySQL** as the backend database and **Microsoft Power BI** for interactive analytics and visualization.
+This project demonstrates the design and implementation of an end-to-end Supply Chain and Inventory Management solution.
 
-**Prepared by:**  
-**Boniface Anuforo**  
-**Power BI Developer | Data Analyst | Business Analyst | Supply Chain Analyst | Inventory Analyst**
+The solution integrates:
 
-- **GitHub**: https://github.com/bcanuforo
-- **LinkedIn**: https://linkedin.com/in/boniface-anuforo-34b935219
+* MySQL Relational Database
+* Data Modeling
+* ETL & Data Transformation
+* Power BI Dashboard Development
+* KPI Monitoring
+* Executive Reporting
 
----
-
-### ✨ Key Features
-
-- Real-time Inventory Value Tracking
-- On-Time Delivery Performance Monitoring
-- Purchases vs Sales Trend Analysis
-- Shipment Status Overview (Delivered, In Transit, Delayed)
-- Low Stock Alerts & Reorder Recommendations
-- Category-wise Stock Distribution
-- Top 10 Products by Stock Value
-- Fully Refreshable Dashboard
+The dashboard enables stakeholders to monitor inventory levels, shipment performance, purchasing activities, sales trends, and warehouse operations in real time.
 
 ---
 
-### 📊 Dashboard Highlights (June 2026)
+## 🏗️ Technology Stack
 
-- **Total Inventory Value**: ₦13.07 Million
-- **On-Time Delivery**: **100%**
-- **Inventory Turnover**: **3.6x**
-- **Low Stock Items**: **0**
-- **Average Lead Time**: **3.4 Days**
+| Technology  | Purpose                             |
+| ----------- | ----------------------------------- |
+| MySQL       | Database & Data Storage             |
+| SQL         | Data Querying & Transformation      |
+| Power BI    | Dashboard & Reporting               |
+| DAX         | KPI Calculations                    |
+| Power Query | Data Preparation                    |
+| GitHub      | Version Control & Portfolio Hosting |
 
 ---
 
-## 📸 Dashboard Screenshots
+## 🗄️ MySQL Database Schema
+
+The database was designed using a relational model that supports:
+
+* Product Management
+* Inventory Tracking
+* Warehouse Operations
+* Supplier Management
+* Purchase Orders
+* Sales Orders
+* Shipment Monitoring
+
+### Database Tables
+
+#### Dimension Tables
+
+* Products
+* Suppliers
+* Warehouses
+
+#### Fact Tables
+
+* Inventory
+* Transactions
+* Purchase Orders
+* Sales Orders
+* Shipments
+
+### Database Schema (EER Diagram)
+
+![MySQL Schema](images/mysql-schema.png)
+
+---
+
+## 📊 Power BI Data Model
+
+The Power BI semantic model follows a star-schema design to support efficient filtering, aggregation, and KPI calculations.
+
+### Core Relationships
+
+* Products → Inventory
+* Products → Transactions
+* Products → Purchase Orders
+* Products → Sales Orders
+* Products → Shipments
+* Warehouses → Inventory
+* Date → Transactions
+
+### Power BI Data Model
+
+![Power BI Data Model](images/powerbi-model.png)
+
+---
+
+
+
+## ✨ Key Features
+
+* Real-Time Inventory Value Tracking
+* On-Time Delivery Monitoring
+* Purchase vs Sales Analysis
+* Shipment Status Tracking
+* Low Stock Alerts
+* Reorder Point Monitoring
+* Category-Wise Inventory Distribution
+* Top Products by Stock Value
+* Interactive Filtering & Drill-Down
+* Fully Refreshable Dashboard
+
+---
+
+## 📈 Dashboard Highlights (June 2026)
+
+| KPI                   | Value          |
+| --------------------- | -------------- |
+| Total Inventory Value | ₦13.07 Million |
+| On-Time Delivery Rate | 100%           |
+| Inventory Turnover    | 3.6x           |
+| Average Lead Time     | 3.4 Days       |
+| Low Stock Items       | 0              |
+
+---
+
+## 📸 Dashboard Screenshot
+
+### Executive Dashboard
 
 ![Dashboard Screenshort](dashboard-screenshot.png)
-![Executive Cover](executive-cover.png)
 
 ---
 
-### 📁 Project Structure
+## 📐 Sample DAX Measures
 
+### Inventory Turnover
 
+```DAX
+Inventory Turnover =
+DIVIDE(
+    [Total Sales],
+    [Average Inventory]
+)
+```
+
+### On-Time Delivery Rate
+
+```DAX
+On Time Delivery % =
+DIVIDE(
+    [On Time Deliveries],
+    [Total Deliveries]
+)
+```
+
+### Current Stock
+
+```DAX
+Current Stock =
+SUM(Inventory[quantity])
+```
+
+---
+
+## 🔍 Key Business Insights
+
+* Achieved 100% on-time delivery performance.
+* Maintained healthy inventory turnover at 3.6x.
+* No products currently below reorder threshold.
+* Average supplier lead time remained below four days.
+* Inventory distribution is balanced across product categories.
+
+---
+
+## 📁 Project Structure
+
+```text
 supply-chain-inventory-dashboard/
+│
 ├── README.md
 ├── LICENSE
+│
 ├── sql/
 │   ├── 01_schema.sql
-│   └── 02_sample_data.sql/
+│   └── 02_sample_data.sql
+│
 ├── reports/
 │   └── Supply_Chain_Executive_Report.pdf
-└── images/
-├── dashboard-screenshot.png
-└── executive-cover.png
+│
+├── images/
+│   ├── dashboard-screenshot.png
+│   ├── powerbi-model.png
+│   ├── mysql-schema.png
+│   └── executive-cover.png
+```
 
+---
 
-### 🛠️ How to Run This Project
+## ⚙️ How to Run This Project
 
-1. **Database Setup**
-   ```bash
-   mysql -u root -p
-   CREATE DATABASE supply_chain_db;
-   USE supply_chain_db;
-   SOURCE 01_schema.sql;
-   SOURCE 02_sample_data.sql;
+### 1. Database Setup
 
-2. Power BI
-- Open Supply_Chain_Inventory_Dashboard.pbix (available upon request due to size)
-- Update MySQL connection details
-- Click Refresh
+```sql
+CREATE DATABASE supply_chain_db;
+USE supply_chain_db;
 
-1. Executive Report
-- Open Supply_Chain_Executive_Report.pdf
+SOURCE 01_schema.sql;
+SOURCE 02_sample_data.sql;
+```
 
-📈 Key Achievements
+### 2. Power BI
 
-- Designed and implemented a robust relational database (supply_chain_db)
-- Built a clean, modern, and interactive Power BI dashboard
-- Implemented advanced DAX measures and time intelligence
-- Delivered a professional 5-page Executive Report
+1. Open the PBIX file.
+2. Update MySQL connection settings.
+3. Refresh the dataset.
+4. Review dashboard visuals.
 
+### 3. Executive Report
 
-🔮 Future Enhancements
+Open:
 
-- Deploy to Power BI Service with scheduled refresh
-- Add Demand Forecasting
-- Develop Supplier Performance Dashboard
-- Implement Row-Level Security
+```text
+Supply_Chain_Executive_Report.pdf
+```
 
+---
 
-Made with ❤️ for Data Analytics & Supply Chain Excellence
+## 🏆 Key Achievements
 
-👤 Author
-Boniface Anuforo
-Data Analyst | Business Intelligence | Workforce Analytics
+* Designed and implemented a relational database in MySQL.
+* Built an interactive Power BI dashboard.
+* Created advanced DAX measures and KPIs.
+* Developed a professional executive report.
+* Delivered an end-to-end business intelligence solution.
 
-⭐ If this project inspires you, please give it a star!
+---
+
+## 🔮 Future Enhancements
+
+* Deploy to Power BI Service
+* Configure Scheduled Refresh
+* Add Demand Forecasting
+* Build Supplier Performance Analytics
+* Implement Row-Level Security (RLS)
+* Integrate Real-Time Data Sources
+
+---
+
+## 📬 Contact
+
+**Boniface Anuforo**
+
+GitHub: https://github.com/bcanuforo
+
+LinkedIn: https://linkedin.com/in/boniface-anuforo-34b935219
+
+---
+
+⭐ If you found this project useful, please consider starring the repository.

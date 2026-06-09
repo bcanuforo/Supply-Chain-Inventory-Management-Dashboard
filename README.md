@@ -1,8 +1,8 @@
 # Supply Chain & Inventory Management Dashboard
 
-![Dashboard Preview](images/dashboard-screenshot.png)
+![Supply Chain Dashboard](images/dashboard-screenshot.png)
 
-> **End-to-End MySQL + Power BI Solution** for Real-time Supply Chain Visibility
+> **End-to-End MySQL + Power BI Solution** for Real-time Supply Chain Visibility & Analytics
 
 ---
 

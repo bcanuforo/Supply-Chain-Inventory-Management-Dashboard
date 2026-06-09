@@ -59,7 +59,7 @@ A complete professional **Supply Chain & Inventory Management System** built fro
 
 ### 📁 Project Structure
 
-
+```bash
 supply-chain-inventory-dashboard/
 ├── README.md
 ├── LICENSE

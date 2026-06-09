@@ -89,20 +89,21 @@ Open
 
 📈 Key Achievements
 
-Designed and implemented a robust relational database (supply_chain_db)
-Built a clean, modern, and interactive Power BI dashboard
-Implemented advanced DAX measures and time intelligence
-Delivered a professional 5-page Executive Report
+- Designed and implemented a robust relational database (supply_chain_db)
+- Built a clean, modern, and interactive Power BI dashboard
+- Implemented advanced DAX measures and time intelligence
+- Delivered a professional 5-page Executive Report
 
 
 🔮 Future Enhancements
 
-Deploy to Power BI Service with scheduled refresh
-Add Demand Forecasting
-Develop Supplier Performance Dashboard
-Implement Row-Level Security
+- Deploy to Power BI Service with scheduled refresh
+- Add Demand Forecasting
+- Develop Supplier Performance Dashboard
+- Implement Row-Level Security
 
 
 Made with ❤️ for Data Analytics & Supply Chain Excellence
+
 Boniface Anuforo — June 2026
 ⭐ Star this repository if you find it useful!   

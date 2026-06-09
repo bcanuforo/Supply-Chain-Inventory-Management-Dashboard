@@ -52,7 +52,7 @@ A complete professional **Supply Chain & Inventory Management System** built fro
 
 ## 📸 Dashboard Screenshots
 
-![Dashboard Screenshort](dashboard-screenshort.png)
+![Dashboard Screenshort](dashboard-screenshot.png)
 ![Executive Cover](executive-cover.png)
 
 ---

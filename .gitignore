@@ -1,0 +1,46 @@
+# Power BI Files
+*.pbix
+*.pbit
+*.pbix~*
+*.pbi
+
+# Temporary and Cache Files
+*.tmp
+*.temp
+*.log
+*.bak
+Cache/
+Temp/
+
+# Power Query / Data Files
+*.csv
+*.xlsx
+*.xls
+*.json
+
+# Credentials & Sensitive Files
+*.env
+connections.json
+credentials.json
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Large Binary Files
+*.zip
+*.7z
+
+# Power BI Service Files
+Connection*.xml
+*.odc

@@ -72,7 +72,6 @@ USE supply_chain_db;
 SOURCE 01_schema.sql;
 SOURCE 02_sample_data.sql;
 ```
-
 2. Open Power BI Dashboard
 
 Download and open Supply_Chain_Inventory_Dashboard.pbix

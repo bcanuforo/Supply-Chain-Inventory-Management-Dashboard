@@ -106,7 +106,7 @@ SUM(Inventory[quantity])
 - Demand forecasting
 - Supplier performance scorecards
 - Row-Level Security (RLS)
-
+##
 Prepared by
 Boniface Anuforo
 Power BI Developer | Data Analyst | Supply Chain Analyst

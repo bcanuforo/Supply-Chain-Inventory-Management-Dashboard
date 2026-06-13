@@ -83,7 +83,7 @@ SOURCE 02_sample_data.sql;
 
 
 ## 📐 Sample DAX Measures
-
+```
 Inventory Turnover = 
 DIVIDE([Total Sales], [Average Inventory])
 
@@ -92,7 +92,7 @@ DIVIDE([On Time Deliveries], [Total Deliveries])
 
 Current Stock = 
 SUM(Inventory[quantity])
-
+```
 ## 🔍 Key Insights
 
 - Achieved 100% on-time delivery

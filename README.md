@@ -108,7 +108,7 @@ SUM(Inventory[quantity])
 - Row-Level Security (RLS)
 ##
 Prepared by
-Boniface Anuforo
+###Boniface Anuforo
 Power BI Developer | Data Analyst | Supply Chain Analyst
 
 - GitHub

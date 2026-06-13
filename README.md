@@ -75,11 +75,12 @@ SOURCE 02_sample_data.sql;
 ```
 
 ## 2. Open Power BI Dashboard
-
+```
 Download and open Supply_Chain_Inventory_Dashboard.pbix
 Update the MySQL connection (server, database, credentials)
 Click Refresh to load the latest data
 Explore the interactive visuals
+```
 
 📐 Sample DAX Measures
 

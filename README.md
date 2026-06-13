@@ -36,6 +36,7 @@ Stakeholders can monitor inventory levels, shipment performance, purchasing acti
 ![MySQL Schema](mysql-schema.png)
 
 ## 📊 Power BI Data Model
+
 ![Power BI Data Model](powerbi-model.png)
 
 ## ✨ Key Features
@@ -72,6 +73,7 @@ USE supply_chain_db;
 SOURCE 01_schema.sql;
 SOURCE 02_sample_data.sql;
 ```
+
 2. Open Power BI Dashboard
 
 Download and open Supply_Chain_Inventory_Dashboard.pbix

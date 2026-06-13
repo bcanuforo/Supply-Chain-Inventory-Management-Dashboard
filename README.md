@@ -6,8 +6,7 @@
 
 ## 🚀 Live Interactive Dashboard
 
-**[View Interactive Supply Chain Dashboard](https://app.powerbi.com/view?r=your-link-here)**  
-*(Replace with your actual published Power BI link)*
+**[View Interactive Supply Chain Dashboard](https://app.powerbi.com/groups/a3052749-2d59-49d4-b75a-d06280187d9b/reports/a034977e-d1cf-4ca7-a36a-216e9a5ace3b/47d9fe1c0d4772d593c3?experience=power-bi)**  
 
 ## 📥 Download Power BI File
 

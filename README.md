@@ -110,7 +110,7 @@ SUM(Inventory[quantity])
 
 Prepared by
 
-###Boniface Anuforo
+### Boniface Anuforo
 Power BI Developer | Data Analyst | Supply Chain Analyst
 
 - GitHub

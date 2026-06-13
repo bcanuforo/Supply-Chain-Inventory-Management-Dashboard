@@ -36,7 +36,6 @@ Stakeholders can monitor inventory levels, shipment performance, purchasing acti
 ![MySQL Schema](mysql-schema.png)
 
 ## 📊 Power BI Data Model
-
 ![Power BI Data Model](powerbi-model.png)
 
 ## ✨ Key Features
@@ -75,10 +74,10 @@ SOURCE 02_sample_data.sql;
 ```
 2. Open Power BI Dashboard
 
-Download and open Supply_Chain_Inventory_Dashboard.pbix
-Update the MySQL connection (server, database, credentials)
-Click Refresh to load the latest data
-Explore the interactive visuals
+1. Download and open Supply_Chain_Inventory_Dashboard.pbix
+2. Update the MySQL connection (server, database, credentials)
+3. Click Refresh to load the latest data
+4. Explore the interactive visuals
 
 📐 Sample DAX Measures
 daxInventory Turnover = 

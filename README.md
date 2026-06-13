@@ -82,7 +82,7 @@ SOURCE 02_sample_data.sql;
 4.  Explore the interactive visuals
 
 
-📐 Sample DAX Measures
+## 📐 Sample DAX Measures
 
 Inventory Turnover = 
 DIVIDE([Total Sales], [Average Inventory])
@@ -93,14 +93,14 @@ DIVIDE([On Time Deliveries], [Total Deliveries])
 Current Stock = 
 SUM(Inventory[quantity])
 
-🔍 Key Insights
+## 🔍 Key Insights
 
 Achieved 100% on-time delivery
 Healthy inventory turnover of 3.6x
 No low-stock items
 Average lead time of 3.4 days
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Deploy to Power BI Service
 Scheduled data refresh

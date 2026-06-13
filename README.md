@@ -107,7 +107,7 @@ SUM(Inventory[quantity])
 - Supplier performance scorecards
 - Row-Level Security (RLS)
 ##
-###Prepared by
+### Prepared by
 Boniface Anuforo
 Power BI Developer | Data Analyst | Supply Chain Analyst
 

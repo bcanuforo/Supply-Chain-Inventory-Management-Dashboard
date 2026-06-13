@@ -95,25 +95,25 @@ SUM(Inventory[quantity])
 
 ## 🔍 Key Insights
 
-Achieved 100% on-time delivery
-Healthy inventory turnover of 3.6x
-No low-stock items
-Average lead time of 3.4 days
+- Achieved 100% on-time delivery
+- Healthy inventory turnover of 3.6x
+- No low-stock items
+- Average lead time of 3.4 days
 
 ## 🔮 Future Enhancements
 
-Deploy to Power BI Service
-Scheduled data refresh
-Demand forecasting
-Supplier performance scorecards
-Row-Level Security (RLS)
+- Deploy to Power BI Service
+- Scheduled data refresh
+- Demand forecasting
+- Supplier performance scorecards
+- Row-Level Security (RLS)
 
 
 Prepared by
 Boniface Anuforo
 Power BI Developer | Data Analyst | Supply Chain Analyst
 
-GitHub
-LinkedIn
+- GitHub
+- LinkedIn
 
 ⭐ If you find this project useful, please star the repository!

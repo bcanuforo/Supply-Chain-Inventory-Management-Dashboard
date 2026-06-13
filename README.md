@@ -7,11 +7,12 @@
 ## 🚀 Live Interactive Dashboard
 
 **[View Interactive Supply Chain Dashboard](https://app.powerbi.com/groups/a3052749-2d59-49d4-b75a-d06280187d9b/reports/a034977e-d1cf-4ca7-a36a-216e9a5ace3b/47d9fe1c0d4772d593c3?experience=power-bi)**  
+*(You may need to sign in with a Microsoft account to view)*
 
 ## 📥 Download Power BI File
 
 **[Download Supply_Chain_Inventory_Dashboard.pbix](Supply_Chain_Inventory_Dashboard.pbix)**  
-*(Fully interactive .pbix file - Open with Power BI Desktop)*
+*(Fully interactive .pbix file — Open with Power BI Desktop)*
 
 ## 📋 Project Overview
 
@@ -62,22 +63,6 @@ Stakeholders can monitor inventory levels, shipment performance, purchasing acti
 
 **[Download Executive Report](Supply_Chain_Executive_Report.pdf)**
 
-## 📁 Project Structure
-
-Supply-Chain-Inventory-Management-Dashboard/
-├── 01_schema.sql
-├── 02_sample_data.sql
-├── Supply_Chain_Inventory_Dashboard.pbix     ← Main Power BI file
-├── Supply_Chain_Executive_Report.pdf
-├── dashboard-screenshot.png
-├── mysql-schema.png
-├── powerbi-model.png
-├── executive-cover.png
-├── README.md
-├── LICENSE
-└── .gitignore
-
-
 ## ⚙️ How to Set Up
 
 ### 1. Database Setup
@@ -87,7 +72,7 @@ USE supply_chain_db;
 
 SOURCE 01_schema.sql;
 SOURCE 02_sample_data.sql;
-
+```
 2. Open Power BI Dashboard
 
 Download and open Supply_Chain_Inventory_Dashboard.pbix
@@ -96,8 +81,7 @@ Click Refresh to load the latest data
 Explore the interactive visuals
 
 📐 Sample DAX Measures
-
-Inventory Turnover = 
+daxInventory Turnover = 
 DIVIDE([Total Sales], [Average Inventory])
 
 On Time Delivery % = 
@@ -130,3 +114,4 @@ GitHub
 LinkedIn
 
 ⭐ If you find this project useful, please star the repository!
+text
